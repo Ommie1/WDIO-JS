@@ -1,0 +1,31 @@
+{
+  "name": "wdio-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ommie1/WDIO-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ommie1/WDIO-JS/issues"
+  },
+  "homepage": "https://github.com/Ommie1/WDIO-JS#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.20.5",
+    "expect.js": "^0.3.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.20.5",
+    "@wdio/mocha-framework": "^7.20.3",
+    "@wdio/spec-reporter": "^7.20.3",
+    "chromedriver": "^103.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
